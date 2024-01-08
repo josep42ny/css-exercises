@@ -1,0 +1,18 @@
+.alert {
+    background-color: rgb(255, 184, 184);
+    font-family: Verdana, DejaVu Snans, sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#blue {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#green {
+    background-color: rgb(147, 255, 194);
+    font-weight: bold;
+}
