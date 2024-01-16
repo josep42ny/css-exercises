@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
@@ -24,4 +30,20 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+body > div {
+  flex: 1;
+}
+
+.content {
+  text-align: center;
+}
+
+.footer,
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex: 0;
+  min-height: 80px;
 }
